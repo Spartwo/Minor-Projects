@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <link rel="icon" href="img/index/logo_hover.png">
+            <title>Geostats</title>
+            <script src = "js/nat.js"> </script>
+            <link id="swap" rel="stylesheet" type="text/css" href="css/default.css" >
+    </head>
+
+<body> <!-- This is where the web page content begins  -->
+
+    <div id="thewholething" style="height:100%; width:100%; overflow: hidden;">
+        <div id="leftThing" align= "center" style="float: left; width:150px; position:fixed; ">
+            <img style = "margin-left:10px; margin-top:40px; height:130px;" id="headImage" onclick="changeImage()" src="img/index/logo.png">
+
+            <div style = "position:fixed; margin-left: 10px; top:160px; color:white; text-align: left;">
+               <h1>Geostats</h1>
+               <HR SIZE=1 WIDTH=130px>
+                    <br>
+                    <a href="index.html" class="dropbtn">Homepage</a>
+                    <br>
+                    <a href="nationlist.html" class="dropbtn">Nation List</a>
+                    <br>
+                    <a href="nation.html" class="dropbtn">Nation Search</a>
+                    <br>
+                    <a href="city.html" class="dropbtn">City Search</a>
+                    <br>
+                    <br>
+               <HR SIZE=1 WIDTH=130px>
+            </div> <!-- This is the navigation bar-->
+        </div>
+
+        <div id="rightThing" style="margin-top: -110px; margin-right: 10px; margin-left: 165px; float: left; width: calc(100% - 180px);">
+            <article style=" min-height: 300px;"> 
+                <div>
+                    <br>
+                    <h2 class="inputHeader">Home</h2>
+                    <p> Welcome to Geostats! Here you can view a long list of countries around the world and look up simple and concise information about them. You can also look up towns and cities around the world to get similar information.
+                    </p>
+                    <br>
+                    
+                    <h2 class="dataHeader">The Nation List</h2>
+                    <hr class="dataBar">
+                    <p> The <a href="nationlist.html">Nation List</a> presents a list of all countries that the application can access and arranges them in alphabetical order. Some of these are dependencies and not independent. You can use this list to copy the name of a country and paste it into either of the search pages. As well as listing names it also lists population and surface area to provide context.
+                    </p>
+                    
+                    <h2 class="dataHeader">How to search</h2>
+                    <hr class="dataBar">
+                    <p> You can search for information about a specified country in the <a href="nation.html" >Nation Search</a> page. Type or paste a country name into the white text box, press the search button, and details about the country will be displayed below a loaded image of the national flag. Please ensure that the name is spelled correctly as incorrect spellings will not return any results. Searching a broad terms such as "republic" or "united" may return unexpected results so please try to use the common names such as "Ireland" or "USA". The Nation Search results list the 10 most populated towns or cities in the country and can be copied to the City Search page to get more details.
+                        <br><br>
+                        You can also find more information about a particular city or town using the <a href="city.html">City Search</a> page. The search process here is the same as in the nation search page but the city search box also accepts country names and will return the city in that country with the highest population.
+                        <br><br>
+                        You can find explanations of what the info in each box means in the Data Key list below.
+                    </p>
+                    
+                    <p style="color: red;">NOTICE: There is a previously known issue where the nation search button will need to be pressed twice to fully update. We have resolved this issue.</p>
+                    
+                    <h2 class="dataHeader">Data Key</h2>
+                    <hr class="dataBar">
+                    <h3 class="listHeader"> Nation List </h3>
+                    <ul>
+                        <li><b>Nation</b>
+                            <ul><li>The common(shorthand, Republic of Ireland => Ireland) name of the country.</li></ul>
+                        </li>
+                        <li><b>Population</b>
+                            <ul><li>The population of the country based on the most recent data.</li></ul>
+                        </li>
+                        <li><b>Area</b>
+                            <ul><li>The land surface area of the country in square kilometres.</li></ul>
+                        </li>
+                    </ul>
+                    <h3 class="listHeader"> Nation Search </h3>
+                    <ul>
+                        <li><b>Header</b>
+                            <ul><li>The official(longhand, Ireland => Republic of Ireland) name of the country.</li></ul>
+                        </li>
+                        <li><b>Population</b>
+                            <ul><li>The population of the country based on the most recent data.</li></ul>
+                        </li>
+                        <li><b>Demonym</b>
+                            <ul><li>The word used to refer to people who live in the country.</li>
+                                <li>Defaults to female if gendered titles.</li></ul>
+                        </li>
+                        <li><b>Official Languages</b>
+                            <ul><li>All languages given an elevated status by the country.</li>
+                                <li>Typically those used by government as opposed to by the population.</li></ul>
+                        </li>
+                        <li><b>UN Membership</b>
+                            <ul><li>Whether the searched for country is a <a href="https://en.wikipedia.org/wiki/United_Nations" >UN</a> member state, regardless of recognition status.</li></ul>
+                        </li>
+                        <li><b>Recognition</b>
+                            <ul><li>The independence situation of the country and whether this is registered by the <a href="https://en.wikipedia.org/wiki/United_Nations" >UN</a>.</li></ul>
+                        </li>
+                        <li><b>Currencies</b>
+                            <ul><li>A list of all accepted <a href="https://en.wikipedia.org/wiki/Currency" >currencies</a>(money types, Euro/Pound/etc) within the country.</li></ul>
+                        </li>
+                        <li><b>Area</b>
+                            <ul><li>The land surface area of the country in square kilometres.</li></ul>
+                        </li>
+                        <li><b>Location</b>
+                            <ul><li>The broad geographic region that the country is located in.</li></ul>
+                        </li>
+                        <li><b>Coordinates</b>
+                            <ul><li>The rough coordinates, presented in latitude(N) and longitude(W), of the country.</li>
+                                <li>Typically its geographic centre.</li></ul>
+                        </li>
+                        <li><b>Capital</b>
+                            <ul><li>The city in which the government is located, not the most populated in all cases.</li></ul>
+                        </li>
+                        <li><b>Urban Areas</b>
+                            <ul><li>An ordered list of the 10 largest towns and cities within the country arranged from most populated to least.</li></ul>
+                        </li>
+                    </ul>
+                    <h3 class="listHeader"> City Search </h3>
+                    <ul>
+                        <li><b>Header</b>
+                            <ul><li>The commonly used name for the city/town searched.</li></ul>
+                        </li>
+                        <li><b>Population</b>
+                            <ul><li>The amount of people contained within the urban area of the city/town.</li></ul>
+                        </li>
+                        <li><b>Coordinates</b>
+                            <ul><li>The rough coordinates, presented in latitude(N) and longitude(W), of the city/town.</li>
+                                <li>Typically its geographic centre.</li></ul>
+                        </li>
+                        <li><b>Country</b>
+                            <ul><li>The common(shorthand, Republic of Ireland => Ireland) name of the country that the city/town is located in.</li></ul>
+                    </ul>
+                <br>
+                </div>
+            </article>
+        </div>
+    </div>
+    
+    
+<!-- Universal Footer Start -->
+
+        <footer><!-- This is the Footer bar-->
+            <p style = "text-align:center; bottom: 70px;">
+            <b>Kyle White</b>
+            <br>
+            Semester 1 Examinations 2
+            <br>
+            <a href="index.html">Home</a> | <a href="https://validator.w3.org/">HTML Validator </a>
+        </footer>
+
+    </body>
+</html>

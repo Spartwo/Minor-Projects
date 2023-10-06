@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <link rel="icon" href="img/index/logo_hover.png">
+            <title>Geostats</title>
+            <script src = "js/nat.js"> </script>
+            <link id="swap" rel="stylesheet" type="text/css" href="css/default.css" >
+    </head>
+
+<body onload= "getNations()"> <!-- This is where the web page content begins  -->
+
+    <div id="thewholething" style="height:100%; width:100%; overflow: hidden;">
+        <div id="leftThing" align= "center" style="float: left; width:150px; position:fixed; ">
+            <img style = "margin-left:10px; margin-top:40px; height:130px;" id="headImage" onclick="changeImage()" src="img/index/logo.png">
+
+            <div style = "position:fixed; margin-left: 10px; top:160px; color:white; text-align: left;">
+               <h1>Geostats</h1>
+               <HR SIZE=1 WIDTH=130px>
+                    <br>
+                    <a href="index.html" class="dropbtn">Homepage</a>
+                    <br>
+                    <a href="nationlist.html" class="dropbtn">Nation List</a>
+                    <br>
+                    <a href="nation.html" class="dropbtn">Nation Search</a>
+                    <br>
+                    <a href="city.html" class="dropbtn">City Search</a>
+                    <br>
+                    <br>
+               <HR SIZE=1 WIDTH=130px>
+            </div> <!-- This is the navigation bar-->
+        </div>
+
+        <div id="rightThing" style="margin-top: -110px; margin-right: 10px; margin-left: 165px; float: left; width: calc(100% - 180px);">
+            <article style=" min-height: 300px;"> 
+                <div>
+                    <br>
+                    <h2 class="inputHeader">List of Nations</h2>
+                    <hr class="dataBar">
+                    <table id="nationList"></table>
+                    <br>
+                </div>
+            </article>
+        </div>
+    </div>
+    
+    
+<!-- Universal Footer Start -->
+
+        <footer><!-- This is the Footer bar-->
+            <p style = "text-align:center; bottom: 70px;">
+            <b>Kyle White</b>
+            <br>
+            Semester 1 Examinations 2
+            <br>
+            <a href="index.html">Home</a> | <a href="https://validator.w3.org/">HTML Validator </a>
+        </footer>
+
+    </body>
+</html>

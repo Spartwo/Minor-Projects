@@ -1,0 +1,1 @@
+Produced using Java, MySQL, and NetBeans, an application for tracking inventories of individuals in TTRPGs

@@ -1,0 +1,3 @@
+Produced using HTML, CSS, and JavaScript, an web application to read API hosted json files and format them into Wikipedia styled infoboxes
+
+Run through Index.html
