@@ -1,0 +1,3 @@
+Produced using Java, a demonstration client and server setup to access a shared dataset in multiple threads at a distance
+
+Run in terminal, start server class then subsequent client classes
