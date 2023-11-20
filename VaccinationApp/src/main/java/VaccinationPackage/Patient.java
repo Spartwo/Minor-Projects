@@ -1,17 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package VaccinationPackage;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
 
-/**
- *
- * @author Kyle White - x21226695
+/*
+ * @author Spartwo
  */
+
 public class Patient implements Serializable{
     //Class used to store patient data
     private String name;

@@ -1,20 +1,14 @@
 package TestingApplicationv1;
+
 import java.io.File;
 import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.ImageIcon;
 
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ * @author Spartwo
  */
 
-
-
-/**
- *
- * @author spart
- */
 public class MainForm extends javax.swing.JFrame {
     public String url = "jdbc:sqlite:c:/mydb/kwhite.db";
     /**

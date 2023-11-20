@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package VaccinationPackage;
 
 //File IO
@@ -15,10 +11,10 @@ import java.time.LocalDate;
 //Queueing
 import java.util.ArrayList;
 
-/**
- *
- * @author Kyle White - x21226695
+/*
+ * @author Spartwo
  */
+
 public class QueueManager {
     
      private final Boolean debug = true;

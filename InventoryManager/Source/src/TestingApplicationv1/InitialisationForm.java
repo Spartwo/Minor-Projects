@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package TestingApplicationv1;
+
 import java.io.File;
 import java.sql.*;
-/*
 
-/**
- *
- * @author spart
+/*
+ * @author Spartwo
  */
+
 public class InitialisationForm extends javax.swing.JFrame {
     /**
      * Creates new form tempjform

@@ -1,19 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-
 package VaccinationPackage;
+
 import java.time.LocalDate;
 import java.time.Year;
 import java.util.Calendar;
 import javax.swing.JOptionPane;
 
-
-/**
- *
- * @author Kyle White - x21226695
+/*
+ * @author Spartwo
  */
+
 public class VaccinationGUI extends javax.swing.JFrame {
 
     private static QueueManager q;
